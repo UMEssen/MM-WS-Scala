@@ -1,0 +1,1236 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "stereotypez-mattermost_2.13-test",
+        "directory": "/home/kirill/dev/stereotypez-mattermost",
+        "workspaceDir": "/home/kirill/dev/stereotypez-mattermost",
+        "sources": [
+            "/home/kirill/dev/stereotypez-mattermost/src/test/scala"
+        ],
+        "dependencies": [
+            "stereotypez-mattermost_2.13"
+        ],
+        "classpath": [
+            "/home/kirill/dev/stereotypez-mattermost/target/test-classes",
+            "/home/kirill/dev/stereotypez-mattermost/target/classes",
+            "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost4j-core/0.20.0/mattermost4j-core-0.20.0.jar",
+            "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost-models/0.20.0/mattermost-models-0.20.0.jar",
+            "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar",
+            "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar",
+            "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-client/2.30.1/jersey-client-2.30.1.jar",
+            "/home/kirill/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-common/2.30.1/jersey-common-2.30.1.jar",
+            "/home/kirill/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar",
+            "/home/kirill/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.30.1/jersey-hk2-2.30.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar",
+            "/home/kirill/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.30.1/jersey-media-json-jackson-2.30.1.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.30.1/jersey-entity-filtering-2.30.1.jar",
+            "/home/kirill/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.10.1/jackson-module-jaxb-annotations-2.10.1.jar",
+            "/home/kirill/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
+            "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-multipart/2.30.1/jersey-media-multipart-2.30.1.jar",
+            "/home/kirill/.m2/repository/org/jvnet/mimepull/mimepull/1.9.11/mimepull-1.9.11.jar",
+            "/home/kirill/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
+            "/home/kirill/.m2/repository/net/bis5/opengraph4j/opengraph4j/0.1.0/opengraph4j-0.1.0.jar",
+            "/home/kirill/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor-typed_2.13/2.6.15/akka-actor-typed_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-slf4j_2.13/2.6.15/akka-slf4j_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream-typed_2.13/2.6.15/akka-stream-typed_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream_2.13/2.6.15/akka-stream_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.15/akka-protobuf-v3_2.13-2.6.15.jar",
+            "/home/kirill/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/kirill/.m2/repository/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-http_2.13/10.2.6/akka-http_2.13-10.2.6.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-http-core_2.13/10.2.6/akka-http-core_2.13-10.2.6.jar",
+            "/home/kirill/.m2/repository/com/typesafe/akka/akka-parsing_2.13/10.2.6/akka-parsing_2.13-10.2.6.jar",
+            "/home/kirill/.m2/repository/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar",
+            "/home/kirill/.m2/repository/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5.jar",
+            "/home/kirill/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/home/kirill/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/home/kirill/.m2/repository/org/scalactic/scalactic_2.13/3.2.10/scalactic_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest_2.13/3.2.10/scalatest_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-core_2.13/3.2.10/scalatest-core_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-compatible/3.2.10/scalatest-compatible-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-featurespec_2.13/3.2.10/scalatest-featurespec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-flatspec_2.13/3.2.10/scalatest-flatspec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-freespec_2.13/3.2.10/scalatest-freespec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-funsuite_2.13/3.2.10/scalatest-funsuite_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-funspec_2.13/3.2.10/scalatest-funspec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-propspec_2.13/3.2.10/scalatest-propspec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-refspec_2.13/3.2.10/scalatest-refspec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-wordspec_2.13/3.2.10/scalatest-wordspec_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-diagrams_2.13/3.2.10/scalatest-diagrams_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-matchers-core_2.13/3.2.10/scalatest-matchers-core_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-shouldmatchers_2.13/3.2.10/scalatest-shouldmatchers_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scalatest/scalatest-mustmatchers_2.13/3.2.10/scalatest-mustmatchers_2.13-3.2.10.jar",
+            "/home/kirill/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+        ],
+        "out": "/home/kirill/dev/stereotypez-mattermost/target",
+        "classesDir": "/home/kirill/dev/stereotypez-mattermost/target/test-classes",
+        "resources": [
+            "/home/kirill/dev/stereotypez-mattermost/src/test/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.6",
+            "options": [
+                "-Yrangepos",
+                "-Xlint",
+                "-deprecation",
+                "-feature"
+            ],
+            "jars": [
+                "/home/kirill/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+                "/home/kirill/.m2/repository/org/jline/jline/3.19.0/jline-3.19.0.jar",
+                "/home/kirill/.m2/repository/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+                "/home/kirill/.m2/repository/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+                "/home/kirill/.m2/repository/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-17-openjdk",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream_2.13/2.6.15/akka-stream_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream_2.13/2.6.15/akka-stream_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.13",
+                    "version": "10.2.6",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-parsing_2.13/10.2.6/akka-parsing_2.13-10.2.6.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-parsing_2.13/10.2.6/akka-parsing_2.13-10.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "1.2.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "/home/kirill/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.inject",
+                    "name": "jersey-hk2",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-hk2",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.30.1/jersey-hk2-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-hk2",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.30.1/jersey-hk2-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-funsuite_2.13/3.2.10/scalatest-funsuite_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-funsuite_2.13/3.2.10/scalatest-funsuite_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-featurespec_2.13/3.2.10/scalatest-featurespec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-featurespec_2.13/3.2.10/scalatest-featurespec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/kirill/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-api",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-api",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "2.3.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "/home/kirill/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-funspec_2.13/3.2.10/scalatest-funspec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-funspec_2.13/3.2.10/scalatest-funspec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-matchers-core_2.13/3.2.10/scalatest-matchers-core_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-matchers-core_2.13/3.2.10/scalatest-matchers-core_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-client",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-client",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-client/2.30.1/jersey-client-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-client",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-client/2.30.1/jersey-client-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-propspec_2.13/3.2.10/scalatest-propspec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-propspec_2.13/3.2.10/scalatest-propspec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-refspec_2.13/3.2.10/scalatest-refspec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-refspec_2.13/3.2.10/scalatest-refspec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest_2.13/3.2.10/scalatest_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest_2.13/3.2.10/scalatest_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/kirill/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.15/akka-protobuf-v3_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.15/akka-protobuf-v3_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-compatible/3.2.10/scalatest-compatible-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-compatible/3.2.10/scalatest-compatible-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-common",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-common",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-common/2.30.1/jersey-common-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-common",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/core/jersey-common/2.30.1/jersey-common-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.2.6",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-http-core_2.13/10.2.6/akka-http-core_2.13-10.2.6.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-http-core_2.13/10.2.6/akka-http-core_2.13-10.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.ws.rs",
+                    "name": "jakarta.ws.rs-api",
+                    "version": "2.1.6",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "path": "/home/kirill/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+                        },
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.2",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bis5.mattermost4j",
+                    "name": "mattermost4j-core",
+                    "version": "0.20.0",
+                    "artifacts": [
+                        {
+                            "name": "mattermost4j-core",
+                            "path": "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost4j-core/0.20.0/mattermost4j-core-0.20.0.jar"
+                        },
+                        {
+                            "name": "mattermost4j-core",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost4j-core/0.20.0/mattermost4j-core-0.20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/kirill/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jvnet.mimepull",
+                    "name": "mimepull",
+                    "version": "1.9.11",
+                    "artifacts": [
+                        {
+                            "name": "mimepull",
+                            "path": "/home/kirill/.m2/repository/org/jvnet/mimepull/mimepull/1.9.11/mimepull-1.9.11.jar"
+                        },
+                        {
+                            "name": "mimepull",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/jvnet/mimepull/mimepull/1.9.11/mimepull-1.9.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.media",
+                    "name": "jersey-media-json-jackson",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-media-json-jackson",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.30.1/jersey-media-json-jackson-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-media-json-jackson",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.30.1/jersey-media-json-jackson-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-shouldmatchers_2.13/3.2.10/scalatest-shouldmatchers_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-shouldmatchers_2.13/3.2.10/scalatest-shouldmatchers_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.9.10",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-wordspec_2.13/3.2.10/scalatest-wordspec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-wordspec_2.13/3.2.10/scalatest-wordspec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "aopalliance-repackaged",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance-repackaged",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar"
+                        },
+                        {
+                            "name": "aopalliance-repackaged",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.activation",
+                    "name": "jakarta.activation",
+                    "version": "1.2.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation",
+                            "path": "/home/kirill/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar"
+                        },
+                        {
+                            "name": "jakarta.activation",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/kirill/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-jaxb-annotations",
+                    "version": "2.10.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-jaxb-annotations",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.10.1/jackson-module-jaxb-annotations-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-module-jaxb-annotations",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.10.1/jackson-module-jaxb-annotations-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-utils",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-utils",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-utils",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http_2.13",
+                    "version": "10.2.6",
+                    "artifacts": [
+                        {
+                            "name": "akka-http_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-http_2.13/10.2.6/akka-http_2.13-10.2.6.jar"
+                        },
+                        {
+                            "name": "akka-http_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-http_2.13/10.2.6/akka-http_2.13-10.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.9.10.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalactic/scalactic_2.13/3.2.10/scalactic_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalactic_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalactic/scalactic_2.13/3.2.10/scalactic_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream-typed_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream-typed_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream-typed_2.13/2.6.15/akka-stream-typed_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-stream-typed_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-stream-typed_2.13/2.6.15/akka-stream-typed_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-mustmatchers_2.13/3.2.10/scalatest-mustmatchers_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-mustmatchers_2.13/3.2.10/scalatest-mustmatchers_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "osgi-resource-locator",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "osgi-resource-locator",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar"
+                        },
+                        {
+                            "name": "osgi-resource-locator",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.9.10",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-slf4j_2.13/2.6.15/akka-slf4j_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-slf4j_2.13/2.6.15/akka-slf4j_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-diagrams_2.13/3.2.10/scalatest-diagrams_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-diagrams_2.13/3.2.10/scalatest-diagrams_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_2.13",
+                    "version": "2.6.15",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor-typed_2.13/2.6.15/akka-actor-typed_2.13-2.6.15.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/akka/akka-actor-typed_2.13/2.6.15/akka-actor-typed_2.13-2.6.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-flatspec_2.13/3.2.10/scalatest-flatspec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-flatspec_2.13/3.2.10/scalatest-flatspec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "1.3.5",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "/home/kirill/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "0.9.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "jakarta.inject",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+                        },
+                        {
+                            "name": "jakarta.inject",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-freespec_2.13/3.2.10/scalatest-freespec_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-freespec_2.13/3.2.10/scalatest-freespec_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.13",
+                    "version": "3.9.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.13",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bis5.mattermost4j",
+                    "name": "mattermost-models",
+                    "version": "0.20.0",
+                    "artifacts": [
+                        {
+                            "name": "mattermost-models",
+                            "path": "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost-models/0.20.0/mattermost-models-0.20.0.jar"
+                        },
+                        {
+                            "name": "mattermost-models",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/net/bis5/mattermost4j/mattermost-models/0.20.0/mattermost-models-0.20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.25.0-GA",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "path": "/home/kirill/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.13",
+                    "version": "3.2.10",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.13",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-core_2.13/3.2.10/scalatest-core_2.13-3.2.10.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/scalatest/scalatest-core_2.13/3.2.10/scalatest-core_2.13-3.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.media",
+                    "name": "jersey-media-multipart",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-media-multipart",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-multipart/2.30.1/jersey-media-multipart-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-media-multipart",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/media/jersey-media-multipart/2.30.1/jersey-media-multipart-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.spray",
+                    "name": "spray-json_2.13",
+                    "version": "1.3.5",
+                    "artifacts": [
+                        {
+                            "name": "spray-json_2.13",
+                            "path": "/home/kirill/.m2/repository/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5.jar"
+                        },
+                        {
+                            "name": "spray-json_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-locator",
+                    "version": "2.6.1",
+                    "artifacts": [
+                        {
+                            "name": "hk2-locator",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-locator",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.0",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bis5.opengraph4j",
+                    "name": "opengraph4j",
+                    "version": "0.1.0",
+                    "artifacts": [
+                        {
+                            "name": "opengraph4j",
+                            "path": "/home/kirill/.m2/repository/net/bis5/opengraph4j/opengraph4j/0.1.0/opengraph4j-0.1.0.jar"
+                        },
+                        {
+                            "name": "opengraph4j",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/net/bis5/opengraph4j/opengraph4j/0.1.0/opengraph4j-0.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.9",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/home/kirill/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.ext",
+                    "name": "jersey-entity-filtering",
+                    "version": "2.30.1",
+                    "artifacts": [
+                        {
+                            "name": "jersey-entity-filtering",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.30.1/jersey-entity-filtering-2.30.1.jar"
+                        },
+                        {
+                            "name": "jersey-entity-filtering",
+                            "classifier": "sources",
+                            "path": "/home/kirill/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.30.1/jersey-entity-filtering-2.30.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
